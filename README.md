@@ -14,9 +14,10 @@ A Makefile is boundled included which uses STL strings and vectors. g++ is used 
 Usage
 -----
 This implementation supports encryption and decryption which can be done via the following commands:
+
     ./sdes encrypt <plaintext> <key>
     ./sdes encrypt 10101010 1011011011
-
+    
     ./sdes decrypt <ciphertext> <key>
     ./sdes decrypt 00100100 1011011011
 
